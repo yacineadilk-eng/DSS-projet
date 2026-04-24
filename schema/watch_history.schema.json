@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WatchHistoryData",
+  "type": "object",
+  "required": ["history"],
+  "additionalProperties": false,
+  "properties": {
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["userId", "filmId", "watchedAt", "ratingGiven"],
+        "properties": {
+          "userId": {
+            "type": "string",
+            "pattern": "^u[0-9]{3,}$"
+          },
+          "filmId": {
+            "type": "string",
+            "pattern": "^f[0-9]{3,}$"
+          },
+          "watchedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ratingGiven": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          }
+        }
+      }
+    }
+  }
+}

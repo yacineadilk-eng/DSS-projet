@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "u001",
+      "firstName": "Admin",
+      "lastName": "System",
+      "age": 30,
+      "email": "admin@cine.local",
+      "passwordHash": "$2y$10$Ql9cI2RtJ7L4WfUZ3MH2W.gBX9x84DQDJ4y0phVgMvp1VkrSiz62a",
+      "role": "admin",
+      "isEmailVerified": true,
+      "verificationToken": "",
+      "favoriteGenres": ["sci-fi", "action"],
+      "watchedFilmIds": ["f001"]
+    }
+  ]
+}

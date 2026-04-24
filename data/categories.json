@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "action",
+      "name": "Action",
+      "description": "Films avec rythme soutenu, aventures et combats."
+    },
+    {
+      "id": "comedy",
+      "name": "Comedie",
+      "description": "Films legers et humoristiques."
+    },
+    {
+      "id": "drama",
+      "name": "Drame",
+      "description": "Histoires emotionnelles et humaines."
+    },
+    {
+      "id": "sci-fi",
+      "name": "Science-Fiction",
+      "description": "Univers futuristes et technologies avancees."
+    },
+    {
+      "id": "animation",
+      "name": "Animation",
+      "description": "Films animes pour tout public."
+    },
+    {
+      "id": "thriller",
+      "name": "Thriller",
+      "description": "Suspense et tension psychologique."
+    }
+  ]
+}
